@@ -1,0 +1,11 @@
+select * from FINAL; - Show the complete table.
+
+select * from final WHERE FINAL.COUNTRY="India"; - Sohw data only from India.
+
+select * from final WHERE FINAL.COUNTRY="South Korea"; - Show data only from South Korea.
+
+select * from final WHERE FINAL.COUNTRY=“United States" and FINAL.CITY=“Los Angeles"; - Show data only from United States - Los Angeles (City).
+
+select final.at, final.country from final ORDER BY final.at DESC; Find the highest temperature from the total given data and sort by Country.
+
+select final.at, final.dt from final ORDER BY final.at DESC; - Find the highest temperature all around the year and sort by date.
